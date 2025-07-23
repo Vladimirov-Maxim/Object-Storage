@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
+	<ConfigVersions>
+		<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ" id="87aa5a6e-b6c3-44e3-84b6-38f7c0a1edc8" configVersion="45516302ed0bceee0579d7bfa581b18ae6626b7e">
+			<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Attribute.Использовать" id="3ea1c2fd-c436-4319-a454-81a7b7bb075d"/>
+			<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Attribute.Сервер" id="9e27ab25-4b01-4ee3-9ca1-cf4c0f2e760c"/>
+			<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Attribute.ТипАутентификации" id="d31da299-3372-4a0b-98bd-15b8c99be7fe"/>
+			<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Attribute.Регион" id="e7cadf3c-f751-4a71-b54f-e7dc1dfa96bc"/>
+			<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Attribute.Сервис" id="f793ff8e-d300-452b-a343-40f3038851e8"/>
+			<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Attribute.ЗащищенноеСоединение" id="fd7acca2-4080-49bb-b00c-b395faffd628"/>
+		</Metadata>
+		<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Form.ФормаЭлемента" id="797fd758-0168-4b2e-adc4-bcf3721cb306" configVersion="7c4c3dc492ff89dbf6802c122057d8ec97e4e8b3"/>
+		<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.Form.ФормаЭлемента.Form" id="797fd758-0168-4b2e-adc4-bcf3721cb306.0" configVersion="a6c916520b712982a19c58d15c04f59d8ee0d29e"/>
+		<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.ManagerModule" id="87aa5a6e-b6c3-44e3-84b6-38f7c0a1edc8.3" configVersion="780d4aa3e347fe7c84d1307bfe81be9460f4f049"/>
+		<Metadata name="Catalog.S3_СервисныеАккаунтыОбъектныхХранилищ.ObjectModule" id="87aa5a6e-b6c3-44e3-84b6-38f7c0a1edc8.0" configVersion="95a5a486488458bf59ea9b1308920f37b5b3c058"/>
+		<Metadata name="CommonModule.S3_ОбщегоНазначения" id="3c62d71e-48dd-41fa-a930-928e5672e39d" configVersion="7a90ed04cc0cb82d85234f55342bba76cd912bf3"/>
+		<Metadata name="CommonModule.S3_ОбщегоНазначения.Module" id="3c62d71e-48dd-41fa-a930-928e5672e39d.0" configVersion="5abce8a99ad29bee0af33dd20b8d0dcebd580db5"/>
+		<Metadata name="CommonModule.S3_ОбъектноеХранилище" id="f794790f-530d-4bd1-9785-1716d10fa154" configVersion="1d9f0487b95c7a8076117b3edd7864217c563216"/>
+		<Metadata name="CommonModule.S3_ОбъектноеХранилище.Module" id="f794790f-530d-4bd1-9785-1716d10fa154.0" configVersion="e49eb9f4b8cc9dba92a3b2b300562d816464eb1f"/>
+		<Metadata name="CommonModule.S3_ОбъектноеХранилищеКлиент" id="4f368a35-572d-4f0d-a054-c229c8740bd6" configVersion="4d126a1ce2f49cb7ff34545f277c6e90e7e1382f"/>
+		<Metadata name="CommonModule.S3_ОбъектноеХранилищеКлиент.Module" id="4f368a35-572d-4f0d-a054-c229c8740bd6.0" configVersion="44c82041e11d0aae8c5f4a2d5be69774997afffd"/>
+		<Metadata name="CommonModule.S3_ОбъектноеХранилищеПовтИсп" id="5be00c6f-fec2-4a3d-81fb-a1de864674e6" configVersion="471afe2010dc9a82e0c9a77ccf9c2c77051e1b81"/>
+		<Metadata name="CommonModule.S3_ОбъектноеХранилищеПовтИсп.Module" id="5be00c6f-fec2-4a3d-81fb-a1de864674e6.0" configVersion="6e111515f2d8e0756650bfb930fbb1cf9a8d027d"/>
+		<Metadata name="CommonPicture.ЗаполнитьФорму" id="52b2b4fd-cc95-4126-a2ae-1b7fd0bc11d6" configVersion="7ee175a1f9166701163bc4194537281613b24d89"/>
+		<Metadata name="CommonPicture.КоллекцияПиктограммФайлов" id="523db91f-4570-4da3-8058-96ddf5d7c73a" configVersion="ce9c50efa23d2f75ad9f878397b41e15c8d35bcc"/>
+		<Metadata name="CommonPicture.СинхронизацияДанныхВыгрузить" id="dc05908b-fd8f-41f6-be36-0040841e420d" configVersion="7425dbf945d5136359a66a52ea3e83d4eb4edee2"/>
+		<Metadata name="Configuration.ОбъектноеХранилище" id="4c47a60c-3571-45f1-b26d-957b28d3dd6a" configVersion="9ae0fe53b00fd72b89b3dc91bf540b98a26d91ee"/>
+		<Metadata name="Constant.S3_СервисныйАккаунтПоУмолчанию" id="33f213c1-f500-47af-8207-bd468ffb7e39" configVersion="316face9288cfce832a09dab87234b79c675509c"/>
+		<Metadata name="DataProcessor.S3_РаботаСОбъектнымХранилищем" id="27d643b9-3eb0-40dd-9cf7-698419a5a0cd" configVersion="0c5f742b76bec1ba59ff4ddf54c3d9698a35cdf4"/>
+		<Metadata name="DataProcessor.S3_РаботаСОбъектнымХранилищем.Form.Форма" id="be98c881-e73e-494b-b131-962ff0c67a57" configVersion="2345886419484caa7ef30bf0fc9e64b23c42e301"/>
+		<Metadata name="DataProcessor.S3_РаботаСОбъектнымХранилищем.Form.Форма.Form" id="be98c881-e73e-494b-b131-962ff0c67a57.0" configVersion="1a834be667a5f9a7983f0eddc034887283238dc5"/>
+		<Metadata name="DataProcessor.S3_РаботаСОбъектнымХранилищем.ObjectModule" id="27d643b9-3eb0-40dd-9cf7-698419a5a0cd.0" configVersion="bc1f902a711248e25d620fb2dc782680abcb2494"/>
+		<Metadata name="Language.Русский" id="9a947b35-7bad-48fb-bc07-c9dc9ec6d101" configVersion="efc9a7a2b4201d1a2cfef866a605c28d892a1929"/>
+		<Metadata name="Role.S3_ОсновнаяРоль" id="f6328f94-3b85-4f6d-9606-a1cbfc775944" configVersion="48971afc1b5e72cb91fa58fab772e7a622641cd8"/>
+		<Metadata name="Subsystem.S3_ОбъектноеХранилище" id="0733cc16-e563-42be-b71e-48ced540c763" configVersion="a019e27f67a274562a48516124786d266fedc940"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
