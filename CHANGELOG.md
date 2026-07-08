@@ -29,4 +29,4 @@
 - Режим совместимости конфигурации — `8.3.24` (внедрение в конфигурации на платформе 8.3.24
   и новее). Протестировано с БСП 3.1.12.254 и Коннектором HTTP 2.6.1.
 
-[1.0.0]: https://gitlab.com/Vladimirov-Maxim/object-storage/-/tags/v1.0.0
+[1.0.0]: https://github.com/Vladimirov-Maxim/Object-Storage/releases/tag/v1.0.0

@@ -8,10 +8,10 @@
 [![Platform](https://img.shields.io/badge/1С:Предприятие-8.3.24%2B-red.svg)](https://v8.1c.ru/)
 [![EDT](https://img.shields.io/badge/1С:EDT-проект-orange.svg)](https://edt.1c.ru/)
 [![БСП](https://img.shields.io/badge/БСП-3.1.12%2B-blue.svg)](https://its.1c.ru/db/bsp)
-[![Release](https://img.shields.io/badge/Скачать-Releases-brightgreen.svg)](https://gitlab.com/Vladimirov-Maxim/object-storage/-/releases)
+[![Release](https://img.shields.io/badge/Скачать-Releases-brightgreen.svg)](https://github.com/Vladimirov-Maxim/Object-Storage/releases)
 
 📦 **Готовые файлы поставки** (`.cf`, `.cfe`, `.clib`, `.xlib`) — на странице
-[Releases](https://gitlab.com/Vladimirov-Maxim/object-storage/-/releases).
+[Releases](https://github.com/Vladimirov-Maxim/Object-Storage/releases).
 
 ---
 
@@ -133,7 +133,7 @@
 ### Через 1С:EDT
 
 ```sh
-git clone https://gitlab.com/Vladimirov-Maxim/object-storage.git
+git clone https://github.com/Vladimirov-Maxim/Object-Storage.git
 ```
 
 Импортируйте проект `ObjectStorage` в рабочую область 1С:EDT
@@ -334,12 +334,12 @@ git clone https://gitlab.com/Vladimirov-Maxim/object-storage.git
 
 ## Дорожная карта
 
-Планы и известные ограничения ведутся в [issues проекта](https://gitlab.com/Vladimirov-Maxim/object-storage/-/issues).
+Планы и известные ограничения ведутся в [issues проекта](https://github.com/Vladimirov-Maxim/Object-Storage/issues).
 См. также [CHANGELOG.md](CHANGELOG.md).
 
 ## Как помочь проекту
 
-Мы рады issue и merge request. Перед началом работы ознакомьтесь с
+Мы рады issue и pull request. Перед началом работы ознакомьтесь с
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Лицензия
