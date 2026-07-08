@@ -8,6 +8,10 @@
 [![Platform](https://img.shields.io/badge/1С:Предприятие-8.3.24%2B-red.svg)](https://v8.1c.ru/)
 [![EDT](https://img.shields.io/badge/1С:EDT-проект-orange.svg)](https://edt.1c.ru/)
 [![БСП](https://img.shields.io/badge/БСП-3.1.12%2B-blue.svg)](https://its.1c.ru/db/bsp)
+[![Release](https://img.shields.io/badge/Скачать-Releases-brightgreen.svg)](https://gitlab.com/Vladimirov-Maxim/object-storage/-/releases)
+
+📦 **Готовые файлы поставки** (`.cf`, `.cfe`, `.clib`, `.xlib`) — на странице
+[Releases](https://gitlab.com/Vladimirov-Maxim/object-storage/-/releases).
 
 ---
 
