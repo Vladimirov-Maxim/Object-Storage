@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db1ca38a-1a38-42e8-a082-bfc4ead18be5">
-  <name>Конфигурация</name>
-  <namePrefix>ох_</namePrefix>
-  <vendor>M. Vladimirov</vendor>
-  <version>1.0.0</version>
+  <name>ОбъектноеХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объектное хранилище</value>
+  </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="03637277-661d-461e-9abe-ff0e00a164da"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2f8b9a7c-101b-4b23-bb58-fc29e754936e"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a7b8ed9b-eda4-4c32-8e19-1933b16141bb"/>
@@ -11,9 +12,12 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3160b2e1-8251-44cb-a2a2-1d8978e61465"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="768aeeea-ffe9-4924-bee1-e8ad2d53550f"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="93db2801-82b5-4204-865e-a5b622030e16"/>
+  <namePrefix>ох_</namePrefix>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>M. Vladimirov</vendor>
+  <version>1.0.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -29,7 +33,8 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.27</compatibilityMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_5</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
   <languages uuid="5fbac2aa-b789-4345-9218-8004f7cd1580">
     <name>Русский</name>
     <synonym>
