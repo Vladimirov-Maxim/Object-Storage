@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db1ca38a-1a38-42e8-a082-bfc4ead18be5">
   <name>Конфигурация</name>
+  <namePrefix>ох_</namePrefix>
+  <vendor>M. Vladimirov</vendor>
+  <version>1.0.0</version>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="03637277-661d-461e-9abe-ff0e00a164da"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2f8b9a7c-101b-4b23-bb58-fc29e754936e"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a7b8ed9b-eda4-4c32-8e19-1933b16141bb"/>
@@ -26,7 +29,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.5.1</compatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="5fbac2aa-b789-4345-9218-8004f7cd1580">
     <name>Русский</name>
     <synonym>
