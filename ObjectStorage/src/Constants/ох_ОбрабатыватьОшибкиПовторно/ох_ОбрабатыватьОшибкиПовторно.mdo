@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c8d3f99-c26d-4bf3-b3d4-9b8b312510ef">
+  <producedTypes>
+    <managerType typeId="1ba3e1c8-9926-41fb-a6df-d559b6b1285e" valueTypeId="ce0ab9cd-2831-4cec-b626-27df1f0a432a"/>
+    <valueManagerType typeId="4501643a-403a-49c1-baa0-f8d4aadce335" valueTypeId="9e4a6ae0-3475-41ac-bc08-da288c5e6170"/>
+    <valueKeyType typeId="877b5816-8e48-4492-ab65-5d2387c6cdce" valueTypeId="b59013d2-51ef-4723-897c-e2250a2de75c"/>
+  </producedTypes>
+  <name>ох_ОбрабатыватьОшибкиПовторно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обрабатывать ошибки повторно</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

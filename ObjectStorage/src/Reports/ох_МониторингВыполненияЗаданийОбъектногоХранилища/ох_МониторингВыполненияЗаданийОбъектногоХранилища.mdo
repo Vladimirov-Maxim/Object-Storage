@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="640f3677-b465-4045-a22f-a9da64d3501a">
+  <producedTypes>
+    <objectType typeId="8b17451f-09c5-497a-a74b-6eb1fbc61703" valueTypeId="82701066-50e9-4eb3-9f5e-fbdaca1bf5ea"/>
+    <managerType typeId="0d9edb5f-7e77-4e0f-8f42-38e8870653b2" valueTypeId="d33fe9a6-6e2a-4809-834a-7696b02d1737"/>
+  </producedTypes>
+  <name>ох_МониторингВыполненияЗаданийОбъектногоХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг выполнения заданий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ох_МониторингВыполненияЗаданийОбъектногоХранилища.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ceb71d16-83d7-4702-a632-9285ee76c2a0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

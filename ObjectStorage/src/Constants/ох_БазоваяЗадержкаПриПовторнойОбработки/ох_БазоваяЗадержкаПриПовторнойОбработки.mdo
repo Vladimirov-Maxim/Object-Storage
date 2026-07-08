@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b50aa84-2da9-49bd-9fcc-962d8b94351f">
+  <producedTypes>
+    <managerType typeId="8fcbfa9b-2219-46b9-92f4-7cd8ac269fde" valueTypeId="a04eca4c-44af-4790-a3fe-16377b39204b"/>
+    <valueManagerType typeId="05e86298-c3b8-4bb7-a8f1-371092292e72" valueTypeId="d8005452-5063-46d3-9bce-18376710d812"/>
+    <valueKeyType typeId="4968c4f5-9c53-445a-acc7-793d0f35418d" valueTypeId="4a798698-8575-4db2-9734-20a04497a297"/>
+  </producedTypes>
+  <name>ох_БазоваяЗадержкаПриПовторнойОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая задержка при повторной обработки</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

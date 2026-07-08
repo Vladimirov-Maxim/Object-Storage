@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c71e521d-1d7a-4a10-acab-a705b5ccba3d">
+  <producedTypes>
+    <refType typeId="e0337a35-eb98-4685-8615-fa10f1c64eae" valueTypeId="481f8c9a-881a-4fde-b7f4-768246f53ddb"/>
+    <listType typeId="7e8198eb-b650-4445-815c-cb818faa4a7a" valueTypeId="4c704bb6-de47-4959-84ac-301876a6579a"/>
+    <managerType typeId="00f9a15a-ac78-4370-a151-53340ca7cbfe" valueTypeId="1384465c-9708-40ec-8ece-e184c6377dbd"/>
+  </producedTypes>
+  <name>ох_ОперацииНадОбъектамиВОбъектномХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции над объектами в объектном хранилище</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d7071b92-fcc6-4e73-a003-fa72a29fbe5d">
+    <name>Выгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7624be8-a56a-4bdc-b69a-29f6ebcb48e4">
+    <name>Удаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

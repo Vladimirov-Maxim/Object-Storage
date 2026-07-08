@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="921a269d-ef7e-4dfa-98f3-11fb6ba33c1b">
+  <name>ох_КоннекторS3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор S3</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

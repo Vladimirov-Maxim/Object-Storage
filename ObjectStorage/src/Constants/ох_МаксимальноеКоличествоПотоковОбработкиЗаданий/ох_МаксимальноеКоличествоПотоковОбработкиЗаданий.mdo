@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="311c3257-5661-4210-8efa-f8960930c0be">
+  <producedTypes>
+    <managerType typeId="ff25320d-9447-4b08-b6c5-32602abb6a6a" valueTypeId="b8eee406-fade-4c47-aeec-2cc52e18e5a4"/>
+    <valueManagerType typeId="ddc762d8-1235-4034-8b47-1e693300a09a" valueTypeId="8267300d-bb7b-407c-8bed-8cd2c122f5dd"/>
+    <valueKeyType typeId="04a40761-65c6-48e1-b843-f8114d633ad7" valueTypeId="2481154e-9e2f-4160-9631-56087de43d6c"/>
+  </producedTypes>
+  <name>ох_МаксимальноеКоличествоПотоковОбработкиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество потоков обработки заданий</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

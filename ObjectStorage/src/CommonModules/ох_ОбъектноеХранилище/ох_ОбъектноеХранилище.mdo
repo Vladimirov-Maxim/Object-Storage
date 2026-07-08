@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c8f2d75-7137-4ef7-a243-816834da9e28">
+  <name>ох_ОбъектноеХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объектное хранилище</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

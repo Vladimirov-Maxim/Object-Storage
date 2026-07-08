@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77528aaa-a05e-4a11-a905-5a46e70ee1ee">
+  <producedTypes>
+    <containerType typeId="aea0d1fe-8ae1-46d2-b9f7-eee8ea80755d" valueTypeId="fa896b36-85bb-483c-ab54-72256363bb13"/>
+  </producedTypes>
+  <name>ох_ПрисоединенныеФайлыОбъектногоХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы объектного хранилища</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

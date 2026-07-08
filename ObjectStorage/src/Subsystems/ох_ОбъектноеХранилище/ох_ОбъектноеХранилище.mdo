@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5bd965e-5fe9-47e9-9088-1dcecab95a85">
+  <name>ох_ОбъектноеХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объектное хранилище</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ох_ОбъектноеХранилища16</picture>
+  </picture>
+  <content>CommonModule.ох_ОбъектноеХранилище</content>
+  <content>CommonModule.ох_ОбщегоНазначенияКлиент</content>
+  <content>CommonModule.ох_ОбъектноеХранилищеПовтИсп</content>
+  <content>DataProcessor.ох_РаботаСОбъектнымХранилищем</content>
+  <content>Catalog.ох_СервисныеАккаунтыОбъектныхХранилищ</content>
+  <content>CommonModule.ох_КоннекторS3</content>
+  <content>CommonModule.ох_ОбъектноеХранилищеСлужебный</content>
+  <content>InformationRegister.ох_ПрисоединенныеФайлыВХранилище</content>
+  <content>ScheduledJob.ох_ОбработкаЗаданийОбъектногоХранилища</content>
+  <content>InformationRegister.ох_ЗаданияДляОбработкиОбъектовХранилища</content>
+  <content>Enum.ох_СтатусыВыполненияЗаданийОбъектногоХранилища</content>
+  <content>Enum.ох_ОперацииНадОбъектамиВОбъектномХранилище</content>
+  <content>CommonPicture.ох_ОбъектноеХранилища16</content>
+  <content>Catalog.ох_БакетыОбъектныхХранилищ</content>
+  <content>ScheduledJob.ох_РегламентныеОперацииОбъектногоХранилища</content>
+  <content>InformationRegister.ох_ОчередьЗаданийОбъектногоХранилища</content>
+  <content>Report.ох_МониторингВыполненияЗаданийОбъектногоХранилища</content>
+  <content>00d89499-49dd-452a-b100-f5d3e779db7b</content>
+  <content>DefinedType.ох_ВладелецПрисоединенныхФайловОбъектногоХранилища</content>
+  <content>Catalog.ох_НастройкиРегистрацииФайловОбъектногоХранилища</content>
+  <content>CommonModule.ох_РегистрацияФайловОбъектногоХранилища</content>
+  <content>EventSubscription.ох_РегистрацияФайловОбъектногоХранилищаПриЗаписи</content>
+  <content>EventSubscription.ох_РегистрацияФайловОбъектногоХранилищаПередУдалением</content>
+  <content>EventSubscription.ох_РегистрацияФайловОбъектногоХранилищаПриЗаписиНабораЗаписей</content>
+  <content>CommonModule.ох_ОбщегоНазначения</content>
+  <content>CommonModule.ох_ОбщегоНазначенияКлиентСервер</content>
+  <content>Constant.ох_КоличествоЗаданийВыполняемыхОднимПотоком</content>
+  <content>Constant.ох_БазоваяЗадержкаПриПовторнойОбработки</content>
+  <content>Constant.ох_МаксимальноеКоличествоПопытокОбработки</content>
+  <content>Constant.ох_ОбрабатыватьОшибкиПовторно</content>
+  <content>Constant.ох_МаксимальноеКоличествоПотоковОбработкиЗаданий</content>
+  <content>Constant.ох_КоличествоДнейХраненияФайлов</content>
+  <content>Constant.ох_КоличествоДнейХраненияЗаданий</content>
+  <content>Constant.ох_БакетПоУмолчанию</content>
+  <content>Constant.ох_СервисныйАккаунтПоУмолчанию</content>
+  <content>Constant.ох_ИспользоватьИнтеграцию</content>
+  <content>DefinedType.ох_ПрисоединенныеФайлыОбъектногоХранилища</content>
+</mdclass:Subsystem>

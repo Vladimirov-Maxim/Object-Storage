@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f28c4e5b-49cf-419d-bc34-a288737c1402">
+  <producedTypes>
+    <managerType typeId="7396f794-6ae9-4b74-b571-1d0d554b941a" valueTypeId="695937b8-5caa-447e-8f53-e67a82e95e22"/>
+    <valueManagerType typeId="4791ed91-bc5a-4c4f-98bd-728d59d47597" valueTypeId="a2f87c87-cdd1-4179-9035-efaabc97ffeb"/>
+    <valueKeyType typeId="ab536c58-5d6a-4c11-892b-0e1bdcb8b8e8" valueTypeId="f1b8e33e-fbe1-4ea8-9dcb-cc16b63c8311"/>
+  </producedTypes>
+  <name>ох_БакетПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бакет по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ох_БакетыОбъектныхХранилищ</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

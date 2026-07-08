@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da4efa8d-75c8-4dd8-bd88-c1a2464defae">
+  <producedTypes>
+    <managerType typeId="9290fe60-3249-4b5a-9ed3-eee6d4060514" valueTypeId="e6b1a2ed-d972-4fef-a5fa-725db74897b7"/>
+    <valueManagerType typeId="451b4bd5-c42c-40d0-9509-e07a792b1da6" valueTypeId="13528eea-685c-4cdd-bfb8-9e8f0c51c44e"/>
+    <valueKeyType typeId="b76e4767-cfcf-4dee-8f52-e64fb7745618" valueTypeId="44ba398e-37b6-4a38-b1b7-ce14ce84b91e"/>
+  </producedTypes>
+  <name>ох_МаксимальноеКоличествоПопытокОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество попыток обработки</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2aaf228d-c38e-4e3c-867b-8d3417dbdf77">
+  <producedTypes>
+    <selectionType typeId="99fe1020-a72e-4f79-826b-5193f7f13657" valueTypeId="bfa76af7-3871-449a-9515-44f54cd957f2"/>
+    <listType typeId="32d1e572-555f-412d-bfdb-b314e2e3003d" valueTypeId="5296c3c6-a7a5-4cb6-bd2c-7ffa5a6350cb"/>
+    <managerType typeId="c47a3ba2-e092-41d2-b817-a8b12a74afd8" valueTypeId="fb877787-22d8-4369-abf9-b7e9f4e16ea8"/>
+    <recordSetType typeId="51bb8952-b7e5-4a0d-a0ef-38daeb0c7dd9" valueTypeId="b6878d0e-c859-4974-8a85-eb11c0d00817"/>
+    <recordKeyType typeId="042f0680-1d24-4a9b-a78a-e85082f9f2a4" valueTypeId="bd3e9488-51c2-4c15-8f25-b46c87d96d9c"/>
+    <recordType typeId="6db329ce-ddc6-4f9e-bef1-3831c381aeec" valueTypeId="ca7c08ab-f19b-4f7a-a52e-2c69a53fe599"/>
+    <recordManagerType typeId="fb10e829-a5cd-44a8-af61-0917c05a4621" valueTypeId="8a43b083-b23c-49ab-be9b-3cf7b63ec139"/>
+  </producedTypes>
+  <name>ох_ПрисоединенныеФайлыВХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы в хранилище</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ох_ПрисоединенныеФайлыВХранилище.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="11795fe3-b37f-44e1-9b90-29bccbf7ba5c">
+    <name>КлючОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="3710ede3-7caa-47f6-b151-184b322ae7d9">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8e1af251-0f2a-437f-9646-43d3427b9ea3">
+    <name>ДатаНачалаДействияСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия ссылки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a465b259-845b-4aa1-ab90-9c19f5f16653">
+    <name>ДатаОкончанияДействияСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания действия ссылки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e66c9659-7244-486d-a568-949e5620fc1d">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9becd825-5f34-4823-b4b6-873a8a39fb41">
+    <name>КонтрольнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная сумма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="281fbc05-8c95-4c16-951e-7c7c066bd58c">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ох_ПрисоединенныеФайлыОбъектногоХранилища</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4c39371c-4447-4651-90b7-3ed4df6a9a78">
+    <name>ВладелецФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец файла</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ох_ВладелецПрисоединенныхФайловОбъектногоХранилища</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0fc166d6-5086-4c53-853d-745d48951969">
+    <name>СервисныйАккаунт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисный аккаунт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ох_СервисныеАккаунтыОбъектныхХранилищ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8bdf6d02-9bd4-4fb9-8b34-168f135b041d">
+    <name>Бакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бакет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ох_БакетыОбъектныхХранилищ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8601b8b0-2123-4cff-8c96-b099a1f2a3d5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

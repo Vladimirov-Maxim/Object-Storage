@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2544db97-a59e-4df8-b875-ec392c07388b">
+  <producedTypes>
+    <managerType typeId="17d20416-4c70-4ced-b572-bc6f61fe0b63" valueTypeId="39e5c08d-a02e-4050-9dbb-f7d7a0ebcd5f"/>
+    <valueManagerType typeId="1fda1372-8eba-4ed7-891f-7bd8ce176a21" valueTypeId="4dcf683b-db46-4ea3-b81d-c028fce267b4"/>
+    <valueKeyType typeId="41219027-ad54-4fc4-a983-21e93081b755" valueTypeId="9e4370eb-a939-49b8-9256-d07b571a7046"/>
+  </producedTypes>
+  <name>ох_КоличествоДнейХраненияЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней хранения заданий</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

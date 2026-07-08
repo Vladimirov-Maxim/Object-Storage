@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3927e89-3ff5-4e1a-a260-0c30d47a7273">
+  <producedTypes>
+    <managerType typeId="1561848e-339c-419c-a5b7-8e2099d39ddd" valueTypeId="f90f370a-0e3e-4058-a825-39d8742feb1d"/>
+    <valueManagerType typeId="f1dd4437-c9dd-4a62-86e9-84e8550e2de3" valueTypeId="c565f177-06d3-494c-931e-35999844378f"/>
+    <valueKeyType typeId="e5adeb59-c0bc-44a1-a366-2963ec8a2a97" valueTypeId="14381677-588b-4c53-a7aa-215ce827486a"/>
+  </producedTypes>
+  <name>ох_СервисныйАккаунтПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисный аккаунт по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ох_СервисныеАккаунтыОбъектныхХранилищ</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

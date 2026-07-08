@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc51c603-2331-4f3b-898f-b24b578d8485">
+  <producedTypes>
+    <objectType typeId="03573cad-6a8f-471e-843b-520c6aae8464" valueTypeId="bbca4a57-b128-4646-bc91-953b74dc12a8"/>
+    <managerType typeId="7925aa8b-ce4f-4236-8170-366ea88b670a" valueTypeId="63f04c89-c18a-4a3c-abd6-b7b1145fadf0"/>
+  </producedTypes>
+  <name>ох_РаботаСОбъектнымХранилищем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с объектным хранилищем</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ох_РаботаСОбъектнымХранилищем.Form.Форма</defaultForm>
+  <forms uuid="8cb8214e-f1b8-45cd-ad11-d84122c3228b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

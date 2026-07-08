@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db1ca38a-1a38-42e8-a082-bfc4ead18be5">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="03637277-661d-461e-9abe-ff0e00a164da"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2f8b9a7c-101b-4b23-bb58-fc29e754936e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a7b8ed9b-eda4-4c32-8e19-1933b16141bb"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="67d2074c-11a3-4032-a3f4-2618e12665b6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3160b2e1-8251-44cb-a2a2-1d8978e61465"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="768aeeea-ffe9-4924-bee1-e8ad2d53550f"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="93db2801-82b5-4204-865e-a5b622030e16"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="5fbac2aa-b789-4345-9218-8004f7cd1580">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ох_ОбъектноеХранилище</subsystems>
+  <commonPictures>CommonPicture.ох_ОбъектноеХранилища16</commonPictures>
+  <commonModules>CommonModule.ох_ОбъектноеХранилище</commonModules>
+  <commonModules>CommonModule.ох_ОбъектноеХранилищеПовтИсп</commonModules>
+  <commonModules>CommonModule.ох_ОбъектноеХранилищеСлужебный</commonModules>
+  <commonModules>CommonModule.ох_КоннекторS3</commonModules>
+  <commonModules>CommonModule.ох_РегистрацияФайловОбъектногоХранилища</commonModules>
+  <commonModules>CommonModule.ох_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ох_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ох_ОбщегоНазначенияКлиентСервер</commonModules>
+  <eventSubscriptions>EventSubscription.ох_РегистрацияФайловОбъектногоХранилищаПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ох_РегистрацияФайловОбъектногоХранилищаПередУдалением</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ох_РегистрацияФайловОбъектногоХранилищаПриЗаписиНабораЗаписей</eventSubscriptions>
+  <scheduledJobs>ScheduledJob.ох_ОбработкаЗаданийОбъектногоХранилища</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ох_РегламентныеОперацииОбъектногоХранилища</scheduledJobs>
+  <definedTypes>DefinedType.ох_ВладелецПрисоединенныхФайловОбъектногоХранилища</definedTypes>
+  <definedTypes>DefinedType.ох_ПрисоединенныеФайлыОбъектногоХранилища</definedTypes>
+  <constants>Constant.ох_ИспользоватьИнтеграцию</constants>
+  <constants>Constant.ох_СервисныйАккаунтПоУмолчанию</constants>
+  <constants>Constant.ох_БакетПоУмолчанию</constants>
+  <constants>Constant.ох_КоличествоДнейХраненияЗаданий</constants>
+  <constants>Constant.ох_КоличествоДнейХраненияФайлов</constants>
+  <constants>Constant.ох_МаксимальноеКоличествоПотоковОбработкиЗаданий</constants>
+  <constants>Constant.ох_ОбрабатыватьОшибкиПовторно</constants>
+  <constants>Constant.ох_МаксимальноеКоличествоПопытокОбработки</constants>
+  <constants>Constant.ох_БазоваяЗадержкаПриПовторнойОбработки</constants>
+  <constants>Constant.ох_КоличествоЗаданийВыполняемыхОднимПотоком</constants>
+  <catalogs>Catalog.ох_СервисныеАккаунтыОбъектныхХранилищ</catalogs>
+  <catalogs>Catalog.ох_БакетыОбъектныхХранилищ</catalogs>
+  <catalogs>Catalog.ох_НастройкиРегистрацииФайловОбъектногоХранилища</catalogs>
+  <enums>Enum.ох_ОперацииНадОбъектамиВОбъектномХранилище</enums>
+  <enums>Enum.ох_СтатусыВыполненияЗаданийОбъектногоХранилища</enums>
+  <reports>Report.ох_МониторингВыполненияЗаданийОбъектногоХранилища</reports>
+  <dataProcessors>DataProcessor.ох_РаботаСОбъектнымХранилищем</dataProcessors>
+  <informationRegisters>InformationRegister.ох_ЗаданияДляОбработкиОбъектовХранилища</informationRegisters>
+  <informationRegisters>InformationRegister.ох_ОчередьЗаданийОбъектногоХранилища</informationRegisters>
+  <informationRegisters>InformationRegister.ох_ПрисоединенныеФайлыВХранилище</informationRegisters>
+</mdclass:Configuration>

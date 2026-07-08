@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02c7b281-3c92-4412-852b-846dc355f7f6">
+  <producedTypes>
+    <managerType typeId="81028e99-3c12-4ffa-afa6-f699b2253348" valueTypeId="cf7bd126-90e9-4fe5-964e-9e3f7b2b2636"/>
+    <valueManagerType typeId="b57ecad5-1d2e-4483-9120-aaae964b287e" valueTypeId="841c6891-0350-439b-b8ee-7d0f9bb39b19"/>
+    <valueKeyType typeId="b5125761-5dde-4588-8876-1a48a9dab61f" valueTypeId="ebed6a5c-d168-4eb0-82f3-74c51a4837be"/>
+  </producedTypes>
+  <name>ох_КоличествоДнейХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней хранения файлов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

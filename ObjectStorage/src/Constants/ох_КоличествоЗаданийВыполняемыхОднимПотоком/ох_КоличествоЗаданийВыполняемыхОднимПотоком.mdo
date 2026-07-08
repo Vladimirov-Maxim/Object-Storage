@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e28d555f-5cdb-46ef-a16f-aecf4afbe8c8">
+  <producedTypes>
+    <managerType typeId="e47751af-d6e1-4c04-93a8-f1026af7c360" valueTypeId="f63657bd-fdd1-4625-bf89-ae1b50c688ce"/>
+    <valueManagerType typeId="81e5d237-25eb-4b9b-b936-9312cb03f336" valueTypeId="096ce718-57de-43da-b0c9-827985d887a1"/>
+    <valueKeyType typeId="443402f7-2c7a-485d-aa03-e1416bda4532" valueTypeId="08f71b0a-dcda-40aa-9822-5f83f478fee6"/>
+  </producedTypes>
+  <name>ох_КоличествоЗаданийВыполняемыхОднимПотоком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество заданий выполняемых одним потоком</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

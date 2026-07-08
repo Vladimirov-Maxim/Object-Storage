@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a706c3ff-2861-428c-9af7-94b8b896a6f0">
+  <name>ох_РегистрацияФайловОбъектногоХранилищаПередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация файлов объектного хранилища перед удалением</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ох_РегистрацияФайловОбъектногоХранилища.РегистрацияФайловОбъектногоХранилищаПередУдалением</handler>
+</mdclass:EventSubscription>

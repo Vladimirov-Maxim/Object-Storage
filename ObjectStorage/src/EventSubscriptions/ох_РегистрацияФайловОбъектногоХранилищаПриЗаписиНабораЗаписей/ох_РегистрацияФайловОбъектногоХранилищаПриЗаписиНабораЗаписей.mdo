@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="106137c6-a558-426a-87a1-069880cf849b">
+  <name>ох_РегистрацияФайловОбъектногоХранилищаПриЗаписиНабораЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация файлов объектного хранилища при записи набора записей</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ох_РегистрацияФайловОбъектногоХранилища.РегистрацияФайловОбъектногоХранилищаПриЗаписиНабораЗаписей</handler>
+</mdclass:EventSubscription>

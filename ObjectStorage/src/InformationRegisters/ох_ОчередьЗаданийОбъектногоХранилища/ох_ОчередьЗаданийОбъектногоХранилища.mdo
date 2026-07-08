@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="264ae78e-8817-4c93-8d29-d8f46d9ee369">
+  <producedTypes>
+    <selectionType typeId="de79d07f-cb00-43f2-a2c1-ad31727ae9d9" valueTypeId="2d2b3f12-a984-4459-afd1-e6ee8d01a5a0"/>
+    <listType typeId="dec55091-d4b6-4d38-a47d-590ae8088d1e" valueTypeId="3512cba8-8f28-4081-9f31-2a69b3cbceee"/>
+    <managerType typeId="2e0d8eb4-5569-42f7-a4f2-56a97c55b355" valueTypeId="30da6517-68f0-4135-a549-c4f6fae08abf"/>
+    <recordSetType typeId="ac870375-29b5-4bdb-8c11-bf593620cd56" valueTypeId="fcafa976-d647-4989-b6f3-5974595bd217"/>
+    <recordKeyType typeId="d3d96a8e-52d4-48f2-a6d1-505ab473c79e" valueTypeId="715e6476-58a5-4d0f-a009-805f99fa712c"/>
+    <recordType typeId="1e0563db-b045-45c8-916a-4996777064b1" valueTypeId="28f3d7b0-81c4-413c-8614-661dbd3c042d"/>
+    <recordManagerType typeId="19ba20b2-ebb3-4f60-90c4-b9787dd3e22d" valueTypeId="ef34f617-3463-4964-bf3a-8745480f0d04"/>
+  </producedTypes>
+  <name>ох_ОчередьЗаданийОбъектногоХранилища</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь заданий объектного хранилища</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="da704a82-a63a-4e2f-8cd3-16e585b5a690">
+    <name>ИдентификаторЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор записи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="766eb961-53ee-4e43-921d-7a8e43587501">
+    <name>ИдентификаторФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f652c472-3bca-42fc-9da0-f4cf9fbdf4ec">
+    <name>ИдентификаторПотока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор потока</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
