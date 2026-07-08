@@ -1,0 +1,34 @@
+# --- 1C:EDT / Eclipse ---
+# Каталоги сборки и служебные данные среды разработки
+/bin/
+**/bin/
+/.metadata/
+.metadata/
+*.log
+tmp/
+/tmp/
+
+# Локальные настройки среды и рабочего пространства
+.recommenders/
+.DT-INF/
+DT-INF/pmf.stat
+
+# --- Файлы выгрузки конфигуратора ---
+*.cf
+*.cfe
+*.epf
+*.erf
+*.dt
+*.1cd
+
+# --- ОС ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Редакторы ---
+*.bak
+*.tmp
+*~
+.idea/
+.vscode/
