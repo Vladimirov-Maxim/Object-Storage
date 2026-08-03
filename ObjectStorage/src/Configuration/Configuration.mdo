@@ -47,6 +47,7 @@
   <commonPictures>CommonPicture.ох_ОбъектноеХранилища16</commonPictures>
   <commonModules>CommonModule.ох_ОбъектноеХранилище</commonModules>
   <commonModules>CommonModule.ох_ОбъектноеХранилищеПовтИсп</commonModules>
+  <commonModules>CommonModule.ох_ОбъектноеХранилищеПереопределяемый</commonModules>
   <commonModules>CommonModule.ох_ОбъектноеХранилищеСлужебный</commonModules>
   <commonModules>CommonModule.ох_КоннекторS3</commonModules>
   <commonModules>CommonModule.ох_РегистрацияФайловОбъектногоХранилища</commonModules>

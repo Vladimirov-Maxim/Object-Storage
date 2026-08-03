@@ -36,6 +36,7 @@
   <content>EventSubscription.ох_РегистрацияФайловОбъектногоХранилищаПриЗаписиНабораЗаписей</content>
   <content>CommonModule.ох_ОбщегоНазначения</content>
   <content>CommonModule.ох_ОбщегоНазначенияКлиентСервер</content>
+  <content>CommonModule.ох_ОбъектноеХранилищеПереопределяемый</content>
   <content>Constant.ох_КоличествоЗаданийВыполняемыхОднимПотоком</content>
   <content>Constant.ох_БазоваяЗадержкаПриПовторнойОбработки</content>
   <content>Constant.ох_МаксимальноеКоличествоПопытокОбработки</content>
